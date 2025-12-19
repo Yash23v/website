@@ -87,7 +87,6 @@ restro.html:
                 display: flex;
                 flex-direction: row;
                 gap: 30px;
-                /* margin-left: 54%; */
             }
             .header a{
                 padding-left: 5px;
@@ -108,7 +107,6 @@ restro.html:
                 height: 80px;
                 width:80%;
                 border-radius: 20px;
-                /* box-shadow: 0px 0px 4px gold; */
                 border: 3px solid goldenrod;
             }
             .discount img{
@@ -305,7 +303,6 @@ menu.html:
                 text-align: center;
                 font-size: 24px;
                 color: #080b29;
-                /* font-weight: lighter; */
                 margin:8px 15px ;
             }
             .box h2{
@@ -318,8 +315,6 @@ menu.html:
             .box img{
                 height: 190px;
                 width:auto;
-                /* padding-left:10px;
-                padding-right:10px; */
             }
             .inrow{
                 display: flex;
@@ -372,7 +367,6 @@ menu.html:
                     <h2>Price: ₹200</h2>
                 </div>
                 <div class="box">
-                    <!-- <img src="{% static 'paneertikka.jpg' %}"> -->
                     <img src="{% static 'paneertikka1.jpg' %}">
                     <h1>Paneer Skewers <br>with Mint Chutney</h1>
                     <h2>Price: ₹180</h2>
@@ -486,7 +480,6 @@ administration.html:
                 text-align: center;
                 font-size: 24px;
                 color: #080b29;
-                /* font-weight: lighter; */
                 margin:8px 15px ;
             }
             .box h2{
